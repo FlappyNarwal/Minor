@@ -1,0 +1,730 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+ background-color: white;
+ margin: 0;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  
+  color: black;
+  font-weight: bolder;
+}
+
+a:active{
+  
+  color: black;
+  font-weight: bolder;
+}
+
+nav{
+  font-family: 'karla', sans-serif;
+  text-decoration: none;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+nav ul{
+  text-decoration: none;
+  list-style: none;
+  margin: 1% 2%;
+  
+
+}
+
+nav ul li{
+  
+  margin-left: 1%;
+  text-decoration: none;
+  float: right;
+}
+
+.square { 
+  background: white;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background: linear-gradient(11deg, #ffbeeb, #d892ff, #2b96ff);
+  background-size: 600% 600%;
+  animation: Gradient 8s ease infinite;
+ }
+
+ .intro {
+   z-index: 5;
+   font-family: 'Karla', sans-serif;
+   color: white;
+   font-size: 3rem;
+   align-content: center;
+   margin-top: 15%;
+   margin-left: 30% ;
+   
+  
+ }
+
+ .intro2 {
+  z-index: 4;
+  font-family: 'Karla', sans-serif;
+  color: rgb(97, 38, 121);
+  font-size: 3rem;
+  margin-top: 15.3%;
+  margin-left:-38.1% ;
+  opacity: 0.5;
+  
+
+}
+
+ .introtekst{
+  font-family: 'Karla', sans-serif;
+   color: white;
+   margin-top: 22%;
+   margin-left:27%;
+   z-index: 5;
+   justify-content: center;
+   align-content: center;
+   position: absolute;
+
+}
+    .square1 { 
+     background: rgb(149, 165, 255)
+    }
+
+    .square2 { 
+      background: rgb(255, 220, 179)
+     }
+
+     .square3 { 
+      background: rgb(235, 134, 52)
+     }
+
+     .square4 { 
+      background: rgb(143, 143, 143)
+     }
+
+     .square5 { 
+      background: rgb(229, 144, 240);
+     }
+
+     .square6 { 
+      background: rgb(132, 195, 224);
+     }
+
+     .square7 { 
+      background: rgb(252, 207, 6);
+     }
+
+     .square8 { 
+      background: rgb(255, 86, 100);
+     }
+
+
+     container.triangle-right1 {
+      width: 0;
+      height: 0;
+      border-top: 25px solid transparent;
+      border-left: 50px solid rgb(149, 165, 255);
+      border-bottom: 25px solid transparent;
+      z-index: 3;
+      position: absolute;
+      margin-top: 25%;
+      margin-left: 50%;
+  
+    }
+
+    
+    container.triangle-left1 {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid rgb(255, 220, 179);
+  border-bottom: 25px solid transparent;
+  z-index: 3;
+  position: absolute;
+  margin-top: 75%;
+  margin-left: 47.5%;
+    }
+
+    
+    container.triangle-right2 {
+      width: 0;
+      height: 0;
+      border-top: 25px solid transparent;
+      border-left: 50px solid rgb(235, 134, 52);
+      border-bottom: 25px solid transparent;
+      z-index: 3;
+      position: absolute;
+      margin-top: 125%;
+      margin-left: 50%;
+    }
+
+    
+    container.triangle-left2 {
+      width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+      border-right: 50px solid  rgb(143, 143, 143);
+      border-bottom: 25px solid transparent;
+      z-index: 3;
+      position: absolute;
+      margin-top: 175%;
+      margin-left: 47.5%;
+    }
+
+    container.triangle-left3 {
+      width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+      border-right: 50px solid  rgb(132, 195, 224);
+      border-bottom: 25px solid transparent;
+      z-index: 3;
+      position: absolute;
+      margin-top: 270%;
+      margin-left: 47.5%;
+    }
+    container.triangle-right3 {
+      width: 0;
+      height: 0;
+      border-top: 25px solid transparent;
+      border-left: 50px solid rgb(229, 144, 240);
+      border-bottom: 25px solid transparent;
+      z-index: 3;
+      position: absolute;
+      margin-top: 220%;
+      margin-left: 50%;
+    }
+
+    container.triangle-right4 {
+      width: 0;
+      height: 0;
+      border-top: 25px solid transparent;
+      border-left: 50px solid rgb(252, 207, 6);
+      border-bottom: 25px solid transparent;
+      z-index: 3;
+      position: absolute;
+      margin-top: 320%;
+      margin-left: 50%;
+    }
+
+    container.triangle-left4 {
+      width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+      border-right: 50px solid  rgb(255, 86, 100);
+      border-bottom: 25px solid transparent;
+      z-index: 3;
+      position: absolute;
+      margin-top: 370%;
+      margin-left: 47.5%;
+    }
+    div h1{
+      font-family: 'Karla', sans-serif;
+      margin-left: 20%;
+      font-size: 4rem;
+      margin-top: 30%;
+      color: white;
+    }
+
+    .vak{
+      display: flex;
+      flex-wrap: wrap;
+      height: 100vh;
+    }
+    .vak:nth-of-type(even){
+      flex-direction: row-reverse;
+
+    }
+
+    .vak > div{
+      width: 50%;
+      position: relative;
+    }
+
+    .vak img{
+      width: 50%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .img1:hover{
+      
+      transform-origin: center;
+      transform: translate(-44%, -45%) rotate(3deg) scale(1.2);
+      transition:0.5s ease-in-out;
+      cursor: pointer;
+      
+    }
+
+    .img2:hover{
+      
+      transform-origin: center;
+      transform: translate(-44%, -45%) rotate(-3deg) scale(1.2);
+      transition:0.5s ease-in-out;
+      cursor: pointer;
+      
+    }
+
+    .img3:hover{
+      
+      transform-origin: center;
+      transform: translate(-44%, -45%) rotate(3deg) scale(1.2);
+      transition:0.5s ease-in-out;
+      cursor: pointer;
+      
+    }
+
+    .img4:hover{
+      
+      transform-origin: center;
+      transform: translate(-44%, -45%) rotate(-3deg) scale(1.2);
+      transition:0.5s ease-in-out;
+      cursor: pointer;
+      
+    }
+
+    .img5:hover{
+      
+      transform-origin: center;
+      transform: translate(-44%, -45%) rotate(3deg) scale(1.2);
+      transition:0.5s ease-in-out;
+      cursor: pointer;
+      
+    }
+
+    .img6:hover{
+      
+      transform-origin: center;
+      transform: translate(-44%, -45%) rotate(-3deg) scale(1.2);
+      transition:0.5s ease-in-out;
+      cursor: pointer;
+      
+    }
+
+    .img7:hover{
+      
+      transform-origin: center;
+      transform: translate(-44%, -45%) rotate(3deg) scale(1.2);
+      transition:0.5s ease-in-out;
+      cursor: pointer;
+      
+    }
+
+    .img8:hover{
+      
+      transform-origin: center;
+      transform: translate(-44%, -45%) rotate(-3deg) scale(1.2);
+      transition:0.5s ease-in-out;
+      cursor: pointer;
+      
+    }
+    .img5{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+    }
+
+  .img6{
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+  }
+
+  .img7{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+    }
+
+    .img8{
+      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+      }
+
+
+    p{
+      font-family:'karla', sans-serif;
+      margin-left: 20%;
+    }
+
+    b{
+      color: white;
+    }
+
+    .button:nth-of-type(odd) {
+      font-family:'karla', sans-serif;
+      background-color: black;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 50px 50px ;
+      margin-left: 37%;
+      margin-top: 5%;
+      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+    }
+
+    .button:nth-of-type(odd):hover{
+      color: rgb(255, 255, 255);
+      transform: scale(1.1);
+      transition: 0.2s ease-in-out;
+      
+    
+    }
+
+    .kat1{
+      width: 120px;
+      height: 100px;
+      margin-top: 35%;
+      margin-left: -40%;
+      animation-name: bounce;
+      animation-timing-function: ease ease-in-out;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+   
+    .kat2{
+      width: 120px;
+      height: 100px;
+      margin-top: 35%;
+      margin-left: 10%;
+      animation-name: bounce;
+      animation-timing-function: ease ease-in;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-delay: 0.2s;
+    }
+
+    .kat3{
+      width: 120px;
+      height: 100px;
+      margin-top: 35%;
+      margin-left: 12%;
+      animation-name: bounce;
+      animation-timing-function: ease ease-in-out;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-delay: 0.4s;
+    }
+   
+
+    .cirkel {
+      height: 25px;
+      width: 25px;
+      background-color: rgb(149, 165, 255, 0.5);
+      border-radius: 50%;
+      z-index: 10;
+      margin-left: 90%;
+      margin-top: 10%;
+      position: absolute;
+      display: block;
+      animation-name: bubble;
+      animation-timing-function: ease-in-out;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+     
+
+    }
+
+    .cirkel2 {
+      height: 25px;
+      width: 25px;
+      background-color: rgb(149, 165, 255, 0.5);
+      border-radius: 50%;
+      z-index: 10;
+      margin-left: 60%;
+      margin-top: 40%;
+      position: absolute;
+      display: block;
+      animation-name: bubble;
+      animation-timing-function: ease-in-out;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+     
+
+    }
+
+    .cirkel3 {
+      height: 25px;
+      width: 25px;
+      background-color: rgb(255, 220, 179, 0.5);
+      border-radius: 50%;
+      z-index: 10;
+      margin-left: 20%;
+      margin-top: 90%;
+      position: absolute;
+      display: block;
+      animation-name: bubble;
+      animation-timing-function: ease-in-out;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+     
+
+    }
+
+    .cirkel4 {
+      height: 25px;
+      width: 25px;
+      background-color: rgb(255, 220, 179, 0.5);
+      border-radius: 50%;
+      z-index: 10;
+      margin-left: 25%;
+      margin-top: 60%;
+      position: absolute;
+      display: block;
+      animation-name: bubble;
+      animation-timing-function: ease-in-out;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+     
+
+    }
+
+    .cirkel5 {
+      height: 25px;
+      width: 25px;
+      background-color: rgb(235, 134, 52, 0.5);
+      border-radius: 50%;
+      z-index: 10;
+      margin-left: 80%;
+      margin-top: 110%;
+      position: absolute;
+      display: block;
+      animation-name: bubble;
+      animation-timing-function: ease-in-out;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+     
+
+    }
+
+    .cirkel6 {
+      height: 25px;
+      width: 25px;
+      background-color: rgb(235, 134, 52, 0.5);
+      border-radius: 50%;
+      z-index: 10;
+      margin-left: 60%;
+      margin-top: 140%;
+      position: absolute;
+      display: block;
+      animation-name: bubble;
+      animation-timing-function: ease-in-out;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+     
+
+    }
+
+    .cirkel7 {
+      height: 25px;
+      width: 25px;
+      background-color: rgb(143, 143, 143, 0.5);
+      border-radius: 50%;
+      z-index: 10;
+      margin-left: 7%;
+      margin-top: 170%;
+      position: absolute;
+      display: block;
+      animation-name: bubble;
+      animation-timing-function: ease-in-out;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+     
+
+    }
+
+    .cirkel8 {
+      height: 25px;
+      width: 25px;
+      background-color: rgb(143, 143, 143, 0.5);
+      border-radius: 50%;
+      z-index: 10;
+      margin-left: 30%;
+      margin-top: 190%;
+      position: absolute;
+      display: block;
+      animation-name: bubble;
+      animation-timing-function: ease-in-out;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+     
+
+    }
+
+    .cirkel9 {
+      height: 25px;
+      width: 25px;
+      background-color: rgb(229, 144, 240, 0.5);
+      border-radius: 50%;
+      z-index: 10;
+      margin-left: 55%;
+      margin-top: 210%;
+      position: absolute;
+      display: block;
+      animation-name: bubble;
+      animation-timing-function: ease-in-out;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+     
+
+    }
+
+    .cirkel10 {
+      height: 25px;
+      width: 25px;
+      background-color: rgb(229, 144, 240, 0.5);
+      border-radius: 50%;
+      z-index: 10;
+      margin-left: 90%;
+      margin-top: 230%;
+      position: absolute;
+      display: block;
+      animation-name: bubble;
+      animation-timing-function: ease-in-out;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+     
+
+    }
+
+    .cirkel11 {
+      height: 25px;
+      width: 25px;
+      background-color: rgb(132, 195, 224, 0.5);
+      border-radius: 50%;
+      z-index: 10;
+      margin-left: 10%;
+      margin-top: 250%;
+      position: absolute;
+      display: block;
+      animation-name: bubble;
+      animation-timing-function: ease-in-out;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+     
+
+    }
+    .cirkel12 {
+      height: 25px;
+      width: 25px;
+      background-color: rgb(132, 195, 224, 0.5);
+      border-radius: 50%;
+      z-index: 10;
+      margin-left: 40%;
+      margin-top: 280%;
+      position: absolute;
+      display: block;
+      animation-name: bubble;
+      animation-timing-function: ease-in-out;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+     
+
+    }
+    .cirkel13 {
+      height: 25px;
+      width: 25px;
+      background-color: rgb(252, 207, 6, 0.5);
+      border-radius: 50%;
+      z-index: 10;
+      margin-left: 80%;
+      margin-top: 300%;
+      position: absolute;
+      display: block;
+      animation-name: bubble;
+      animation-timing-function: ease-in-out;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+     
+
+    }
+
+
+    .cirkel14 {
+      height: 25px;
+      width: 25px;
+      background-color: rgb(252, 207, 6, 0.5);
+      border-radius: 50%;
+      z-index: 10;
+      margin-left: 60%;
+      margin-top: 340%;
+      position: absolute;
+      display: block;
+      animation-name: bubble;
+      animation-timing-function: ease-in-out;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+     
+
+    }
+    .cirkel15 {
+      height: 25px;
+      width: 25px;
+      background-color: rgb(255, 86, 100, 0.5);
+      border-radius: 50%;
+      z-index: 10;
+      margin-left: 10%;
+      margin-top: 360%;
+      position: absolute;
+      display: block;
+      animation-name: bubble;
+      animation-timing-function: ease-in-out;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+     
+
+    }
+
+    .cirkel16 {
+      height: 25px;
+      width: 25px;
+      background-color: rgb(255, 86, 100, 0.5);
+      border-radius: 50%;
+      z-index: 10;
+      margin-left: 40%;
+      margin-top: 380%;
+      position: absolute;
+      display: block;
+      animation-name: bubble;
+      animation-timing-function: ease-in-out;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+     
+
+    }
+
+
+    @keyframes Gradient {
+      0%{background-position:48% 0%}
+      50%{background-position:53% 100%}
+      100%{background-position:48% 0%}
+  }
+
+  @keyframes bounce {
+    0%   { transform: translateY(0); }
+    30%  { transform: translateY(-100px); }
+    50%  { transform: translateY(0); }
+    100% { transform: translateY(0); }
+}
+  
+
+@keyframes bubble {
+  0%{
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(2);
+  }
+
+   100%{
+    transform: scale(1);
+  }
+}
